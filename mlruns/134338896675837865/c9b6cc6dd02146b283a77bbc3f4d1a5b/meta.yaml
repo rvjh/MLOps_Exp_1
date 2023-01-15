@@ -1,0 +1,15 @@
+artifact_uri: file:///home/lambu/Desktop/Project2022_2023/MLOps_Zoomcamp_1/mlruns/134338896675837865/c9b6cc6dd02146b283a77bbc3f4d1a5b/artifacts
+end_time: 1673792577264
+entry_point_name: ''
+experiment_id: '134338896675837865'
+lifecycle_stage: active
+run_id: c9b6cc6dd02146b283a77bbc3f4d1a5b
+run_name: shivering-asp-214
+run_uuid: c9b6cc6dd02146b283a77bbc3f4d1a5b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1673792568426
+status: 3
+tags: []
+user_id: lambu
