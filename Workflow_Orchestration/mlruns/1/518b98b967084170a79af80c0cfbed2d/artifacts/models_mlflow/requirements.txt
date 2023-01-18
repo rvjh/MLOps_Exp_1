@@ -1,0 +1,2 @@
+mlflow<3,>=2.1
+xgboost==1.7.3
