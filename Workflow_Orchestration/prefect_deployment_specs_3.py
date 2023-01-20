@@ -135,4 +135,17 @@ def main(train_path = '/home/lambu/Desktop/Project2022_2023/MLOps_Zoomcamp_1/inp
     train_model_search(train,valid,y_val)
     train_best_model(train,valid,y_val,dv)
 
-main()
+from prefect.deployments import DeploymentSpec
+from prefect.orion.schemas.schedules import IntervalSchedule
+## for docker or kubernates
+from prefect.flow_runners import SubprocessFlowRunner
+from datetime import timedelta
+
+DeploymentSpec(
+    flow = main,
+    name = "model_training",
+    schedule = IntervalSchedule(interval=timedelta(minutes=1)),
+    flow_runner = SubprocessFlowRunner(),
+    tags = ["ml"]  ## or gpu
+)
+
