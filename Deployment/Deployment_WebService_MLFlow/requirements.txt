@@ -2,3 +2,8 @@ scikit-learn
 flask
 requests
 gunicorn
+jupyter
+pandas
+mlflow
+boto3
+psycopg2-binary
