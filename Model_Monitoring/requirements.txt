@@ -1,0 +1,14 @@
+scikit-learn
+dataclasses
+Flask
+pandas
+Werkzeug
+requests
+prometheus_client
+pyyaml
+tqdm
+pyarrow
+prefect==2.0b5
+pymongo
+evidently
+jupyter
